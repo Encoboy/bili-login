@@ -8,7 +8,7 @@ const sleep = time => new Promise(resolve => {
 });
 
 // console.log 简写
-const log = console.log;
+// const log = console.log;
 
 
 // 爬取的链接
