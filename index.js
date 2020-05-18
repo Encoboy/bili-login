@@ -15,17 +15,17 @@ const puppeteer = require('puppeteer');
 // })();
 
 
-function sleep(delay){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            try{
-                resolve(1)
-            }catch (err) {
-                reject(0)
-            }
-        },delay)
-    })
-}
+// function sleep(delay){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             try{
+//                 resolve(1)
+//             }catch (err) {
+//                 reject(0)
+//             }
+//         },delay)
+//     })
+// }
 
 
 //打开京东，手机，详情页，截屏；
