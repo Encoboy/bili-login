@@ -3,9 +3,9 @@ const chalk = require('chalk');
 const fs = require('fs');
 
 // 延迟执行
-const sleep = time => new Promise(resolve => {
-    setTimeout(resolve, time);
-});
+// const sleep = time => new Promise(resolve => {
+//     setTimeout(resolve, time);
+// });
 
 // console.log 简写
 // const log = console.log;
